@@ -1,1 +1,35 @@
+/* Universal Styles */
 
+html {
+  font-size: 18px;
+}
+body {
+  font-family: 'Helvetica' sans-serif;
+}
+.site-container {
+  max-width: 960px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Header */
+
+header {
+  background-color: black;
+
+}
+
+header span {
+  font-size: 1rem;
+  color: white;
+  padding: 0.66rem 0.5rem;
+}
+
+/* Logo */
+
+.logo {
+  height: 1.5rem;
+  padding: 0.5rem;
+}
+
+/* Main Banner */
