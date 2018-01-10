@@ -4,7 +4,7 @@ html {
   font-size: 18px;
 }
 body {
-  font-family: 'Helvetica' sans-serif;
+  font-family: 'Helvetica', sans-serif;
 }
 .site-container {
   max-width: 960px;
@@ -32,4 +32,45 @@ header span {
   padding: 0.5rem;
 }
 
-/* Main Banner */
+/* Main Banner and Feature Container */
+
+.main-banner {
+  height: 25rem;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.feature h1 {
+  font-size: 2rem;
+  padding: 0.5rem 2rem;
+}
+
+.feature h4 {
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-left: 2.5rem;
+}
+
+.feature {
+  margin-top: 9rem;
+  width: 20rem;
+  height: 10rem;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+
+}
+
+/* Navigation Menu */
+
+nav {
+  background-color: firebrick;
+
+}
+
+ul {
+
+}
