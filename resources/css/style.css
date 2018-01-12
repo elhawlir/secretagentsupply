@@ -4,12 +4,14 @@ html {
   font-size: 18px;
 }
 body {
-  font-family: 'Helvetica', sans-serif;
+  font-family: Helvetica;
 }
 .site-container {
   max-width: 960px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
+  font-family: Helvetica;
 }
 
 /* Header */
@@ -68,9 +70,77 @@ header span {
 
 nav {
   background-color: firebrick;
-
+  height: 3rem;
 }
 
 ul {
+  display: flex;
+}
 
+.button {
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+  padding: 1rem;
+}
+
+/* Product Grid */
+
+.products {
+  display: flex;
+  align-content: center;
+  text-align: center;
+  padding-top: 4rem;
+
+}
+.products img {
+  height: 9rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.product1,
+.product2,
+.product3 {
+  width: 288px;
+  border: 4px solid black;
+}
+.product3 img {
+ width: 10rem;
+}
+.products p {
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+}
+.product1,
+.product2 {
+  margin-right: 4rem;
+}
+
+/* Location and Hours */
+
+.locnhrs {
+  display: flex;
+  align-items: center;
+
+}
+.locnhrs h4 {
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  margin: 3rem 0;
+  padding: 0 2rem;
+
+}
+.location, .hours {
+  width: 336px;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+
+
+}
+.locnhrs p {
+  flex-wrap: wrap; 
 }
